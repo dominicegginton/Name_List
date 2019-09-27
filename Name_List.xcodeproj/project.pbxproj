@@ -16,6 +16,8 @@
 		F246F02D233E1A9B000B5ADE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F246F02B233E1A9B000B5ADE /* LaunchScreen.storyboard */; };
 		F246F038233E1A9C000B5ADE /* Name_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F246F037233E1A9C000B5ADE /* Name_ListTests.swift */; };
 		F246F043233E1A9C000B5ADE /* Name_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F246F042233E1A9C000B5ADE /* Name_ListUITests.swift */; };
+		F246F052233E28C8000B5ADE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F246F050233E28C7000B5ADE /* README.md */; };
+		F246F053233E28C8000B5ADE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F246F051233E28C7000B5ADE /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		F246F03E233E1A9C000B5ADE /* Name_ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Name_ListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F246F042233E1A9C000B5ADE /* Name_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name_ListUITests.swift; sourceTree = "<group>"; };
 		F246F044233E1A9C000B5ADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F246F050233E28C7000B5ADE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F246F051233E28C7000B5ADE /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		F246F011233E1A96000B5ADE = {
 			isa = PBXGroup;
 			children = (
+				F246F051233E28C7000B5ADE /* .gitignore */,
+				F246F050233E28C7000B5ADE /* README.md */,
 				F246F01C233E1A96000B5ADE /* Name_List */,
 				F246F036233E1A9C000B5ADE /* Name_ListTests */,
 				F246F041233E1A9C000B5ADE /* Name_ListUITests */,
@@ -235,8 +241,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F246F053233E28C8000B5ADE /* .gitignore in Resources */,
 				F246F02D233E1A9B000B5ADE /* LaunchScreen.storyboard in Resources */,
 				F246F02A233E1A9B000B5ADE /* Assets.xcassets in Resources */,
+				F246F052233E28C8000B5ADE /* README.md in Resources */,
 				F246F025233E1A96000B5ADE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
