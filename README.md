@@ -1,6 +1,6 @@
 # Name_List
 
-> Small notes app built for IOS 📱
+> Small name list app with data persistence built for IOS 📱
 
 #### Main Concepts
 - Simple core data implemtation
